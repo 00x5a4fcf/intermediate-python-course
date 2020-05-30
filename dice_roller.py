@@ -4,7 +4,7 @@ def main():
   dice_rolls = int(input('How many dice would you like to roll? ')) #user input on how many rolls = dice_roll
   dice_size = int(input('How many sides do the dice have?')) #user input on size = dice_size
   dice_sum = 0
-  #creates variable dice_sum and sets value to 0
+  #creates var dice_sum and sets value to 0
   for i in range(0,dice_rolls):
     #for every index in a range starting after 0 until the value is equal to dice_rolls, do this:
     roll = random.randint(1,dice_size)
